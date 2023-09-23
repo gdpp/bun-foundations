@@ -14,3 +14,14 @@ npm install -g bun
 curl -fsSL https://bun.sh/install | bash # for macOS, Linux, and WSL 
 ```
 
+## Run script / Liver server
+
+```bash
+bun run [file]
+```
+
+## Bundler
+
+```bash
+bun build ./src/index.ts --outfile=./dist/bundle.js
+```
